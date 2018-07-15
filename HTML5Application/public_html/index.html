@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add a grade</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="get">
+            <select name="course"><option value="BIT112"> Introduction to Programming</option>
+                <option value="BIT211"> Advanced Programming</option>
+
+            </select>
+
+            <input type="text" name="score">
+            <input type="submit" value="submit">
+            <fieldset>
+                <legend>Contact information</legend>
+                <ul>
+                    <li>
+                        <label for="email">Email</label>
+                        <input required type="email" id="email" name="email" />
+                    </li>
+                    <li>
+                        <label for="tel">Telephone number</label>
+                        <input required type="tel" id="tel" name="tel" />
+                    </li>
+                    <li>
+                        <label for="url">Website</label>
+                        <input required type="url" id="url" name="url" />
+                    </li>
+                </ul>
+                <input type="submit" value="Submit this" />
+            </fieldset>
+        </form>
+    </body>
+</html>

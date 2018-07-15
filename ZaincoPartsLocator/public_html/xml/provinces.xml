@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<provinces>
+    <province name="Lusaka" image="lusaka.png">
+        <description>Zambia's largest city is in Lusaka. The current population is 2.5 million</description>
+    </province>
+    <province name="Central" image="central.png">
+        <description>Mining of lead and Zinc</description>
+    </province>
+    <province name="Northern" image="Nothern.png">
+        <description>Borders the Republic of Tanzania</description>
+    </province>
+    <province name="Southern" image="southern.png">
+        <description>Home to the Mosi-o-Tunya</description>
+    </province>
+</provinces>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/provinces.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE provinces SYSTEM "provinces.dtd">
+
+    <provinces>
+    ...
+    </provinces>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT provinces (province)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT province (image|description)*>
+<!ATTLIST province
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT image (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT description EMPTY>

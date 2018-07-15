@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zambia Road Traffic  and Safety Agency: Vehicle Lookup</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .header {
+                font-family: Arial,Helvetica,Sans-serif;
+                font-weight: bold;
+            } 
+            label{
+                text-align: right
+            }
+            .vehicleDetails{
+                font-family: Arial,Helvetica,Sans-serif;
+                font-weight: normal
+            }
+            .dataItem{
+                text-align: right
+            }
+        </style>
+        <script>
+            var numberPlate;
+            function doSearch() {
+                document.getElementById("vehicleControlNumber").innerHTML = "471908";
+            }
+        </script>
+    </head>
+    <body> <form>
+            <div class="logo"></div>
+            <div class="header">Road Transport and Safety Agency</div>
+
+            <input type="text" id="numberPlate" required><input type="button" value="Find vehicle"  onclick="doSearch()">
+
+            <div class="vehicleDetails">
+                <table>
+                    <tr><td class="dataItem">Vehicle Control Number</td><td>:</td><td id="vehicleControlNumber"></td></tr>
+                    <tr><td class="dataItem">Registration Number</td><td>:</td><td id="regNumber"></td></tr>
+                    <tr><td class="dataItem">VIN/Chassis Number</td><td>:</td><td id="vin"></td></tr>
+                    <tr><td class="dataItem">Engine Number</td><td>:</td><td id="engineNumber"></td></tr>
+                    <tr><td class="dataItem">Make</td><td>:</td><td></td><td id="make"></td></tr>
+                    <tr><td class="dataItem">Model</td><td>:</td><td></td><td id="model"></td></tr>
+                    <tr><td class="dataItem">Colour</td><td>:</td><td></td><td id="colour"></td></tr>
+                </table>
+            </div>
+            <div class="footer">&copy Tech Ed Data Services Ltd</div>
+
+
+
+        </form>
+        
+    </body>
+</html>
